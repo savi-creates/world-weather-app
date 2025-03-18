@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 900px;
   background: white;
   padding: 30px;
   border-radius: 10px;
@@ -78,12 +78,10 @@ header {
   margin-top: -30px;
 }
 
-.search-form {
+.search-container {
   display: flex;
   align-items: center;
   gap: 1px;
-  flex: 1;
-  justify-content: flex-end;
 }
 
 .search-bar {
@@ -93,8 +91,6 @@ header {
   border-radius: 10px;
   outline: none;
   font-size: 16px;
-  margin-left: 10px;
-  width: 100%;
   max-width: 250px;
   background-color: #f9f7fe;
   font-family: "DM Sans", sans-serif;
@@ -107,8 +103,7 @@ header {
   padding: 15px 30px;
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 10px;
-  transition: 0.3s;
+  transition: 0.2s;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
 }
@@ -128,17 +123,22 @@ header {
   text-align: left;
 }
 
-.temperature {
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-temperature {
   font-size: 88px;
   font-weight: bold;
   color: #212121;
   margin-left: auto;
+  font-family: "DM Sans", sans-serif;
 }
 
 .weather-icon img {
   width: 85px;
   height: auto;
-  margin: -10px auto;
+  margin: 15px auto;
 }
 
 .metric {
@@ -147,7 +147,8 @@ header {
   font-weight: 400;
   line-height: 1;
   position: relative;
-  top: -20px;
+  top: 20px;
+  font-family: "DM Sans", sans-serif;
 }
 
 h1 {
@@ -155,6 +156,7 @@ h1 {
   margin-bottom: 5px;
   color: #212121;
   font-weight: 700;
+  font-family: "DM Sans", sans-serif;
 }
 
 .weather-info p {
