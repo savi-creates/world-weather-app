@@ -1,3 +1,9 @@
+h1,
+h2,
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -47,7 +53,7 @@ body {
 .container {
   width: 800px;
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
