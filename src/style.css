@@ -11,12 +11,13 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
-  padding: 10px;
+  padding: 30px 0 0 0;
   font-size: 14px;
   margin-top: 70px;
   text-align: center;
   color: #27214266;
   line-height: 18px;
+  border-top: 1px solid #f9f7fe;
 }
 
 footer a {
@@ -39,7 +40,6 @@ footer a:hover {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
 }
 
 body {
@@ -64,7 +64,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #f9f7fe;
 }
 
 .logo-container {
@@ -87,26 +88,29 @@ header {
 
 .search-bar {
   flex: 1;
-  padding: 10px;
+  padding: 15px 20px;
   border: none;
   border-radius: 10px;
   outline: none;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 10px;
   width: 100%;
   max-width: 250px;
   background-color: #f9f7fe;
+  font-family: "DM Sans", sans-serif;
 }
 
 .search-btn {
   background-color: #fb9f2a;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 15px 30px;
   border-radius: 10px;
   cursor: pointer;
   margin-left: 10px;
   transition: 0.3s;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
 }
 
 .search-btn:hover {
