@@ -23,20 +23,23 @@
           />
         </div>
         <div class="search-container">
-          <input
-            type="text"
-            placeholder="Enter a city.."
-            class="search-bar"
-            required
-          />
-          <button class="search-btn">Search</button>
+          <form class="search-form" id="search-form">
+            <input
+              type="text"
+              placeholder="Enter a city.."
+              id="search-form-input"
+              class="search-bar"
+              required
+            />
+            <input type="submit" value="Search" class="search-btn" />
+          </form>
         </div>
       </header>
 
       <main>
         <section class="weather-container">
           <div class="weather-info">
-            <h1>Lisbon</h1>
+            <h1 id="city">Lisbon</h1>
 
             <p>Tuesday 09:46, few clouds</p>
             <p>
