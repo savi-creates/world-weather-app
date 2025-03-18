@@ -121,6 +121,11 @@ header {
 
 .weather-info {
   text-align: left;
+  font-family: "DM Sans", sans-serif;
+  color: #27214266;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .weather-app-temperature-container {
