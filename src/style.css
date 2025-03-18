@@ -1,6 +1,6 @@
 /* Styles for the top-left logo */
 .logo {
-  width: 120px; /* Adjust size as needed */
+  width: 600px; /* Adjust size as needed */
   position: absolute;
   top: 10px;
   left: 10px;
@@ -49,7 +49,7 @@ header {
 
 /* Logo (Globe Forecast) */
 .logo {
-  width: 50px; /* Adjust size as needed */
+  width: 200px; /* Adjust size as needed */
 }
 
 /* Search bar */
