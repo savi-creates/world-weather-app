@@ -121,7 +121,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 30px 10px;
 }
 
 .weather-info {
@@ -129,10 +129,16 @@ header {
 }
 
 .temperature {
-  font-size: 80px;
+  font-size: 88px;
   font-weight: bold;
   color: #212121;
   margin-left: auto;
+}
+
+.weather-icon img {
+  width: 85px;
+  height: auto;
+  margin: -10px auto;
 }
 
 .metric {
@@ -153,7 +159,7 @@ h1 {
 
 .weather-info p {
   color: #27214266;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 20px;
 }
