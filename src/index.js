@@ -11,13 +11,13 @@ function refreshWeather(response) {
 
   let iconMapping = {
     "clear-sky-day": "icons/sun.gif",
-    "clear-sky-night": "icons/sun.gif",
+    "clear-sky-night": "icons/night.gif",
     "few-clouds-day": "icons/sun-clouds.gif",
-    "few-clouds-night": "icons/sun-clouds.gif",
+    "few-clouds-night": "icons/night-clouds.gif",
     "scattered-clouds-day": "icons/cloudy.gif",
-    "scattered-clouds-night": "icons/cloudy.gif",
+    "scattered-clouds-night": "icons/night-clouds.gif",
     "broken-clouds-day": "icons/cloudy.gif",
-    "broken-clouds-night": "icons/cloudy.gif",
+    "broken-clouds-night": "icons/night-clouds.gif",
     "shower-rain-day": "icons/rain.gif",
     "shower-rain-night": "icons/rain.gif",
     "rain-day": "icons/sun-rain.gif",
@@ -27,7 +27,7 @@ function refreshWeather(response) {
     "snow-day": "icons/snow.gif",
     "snow-night": "icons/snow.gif",
     "mist-day": "icons/cloudy.gif",
-    "mist-night": "icons/cloudy.gif",
+    "mist-night": "icons/full-moon.gif",
   };
 
   let weatherIcon = response.data.condition.icon;
@@ -50,13 +50,13 @@ function refreshForecast(response) {
 
   let iconMapping = {
     "clear-sky-day": "icons/sun.gif",
-    "clear-sky-night": "icons/sun.gif",
+    "clear-sky-night": "icons/night.gif",
     "few-clouds-day": "icons/sun-clouds.gif",
-    "few-clouds-night": "icons/sun-clouds.gif",
+    "few-clouds-night": "icons/night-clouds.gif",
     "scattered-clouds-day": "icons/cloudy.gif",
-    "scattered-clouds-night": "icons/cloudy.gif",
+    "scattered-clouds-night": "icons/night-clouds.gif",
     "broken-clouds-day": "icons/cloudy.gif",
-    "broken-clouds-night": "icons/cloudy.gif",
+    "broken-clouds-night": "icons/night-clouds.gif",
     "shower-rain-day": "icons/rain.gif",
     "shower-rain-night": "icons/rain.gif",
     "rain-day": "icons/sun-rain.gif",
@@ -66,7 +66,7 @@ function refreshForecast(response) {
     "snow-day": "icons/snow.gif",
     "snow-night": "icons/snow.gif",
     "mist-day": "icons/cloudy.gif",
-    "mist-night": "icons/cloudy.gif",
+    "mist-night": "icons/full-moon.gif",
   };
 
   let forecastHTML = "";
