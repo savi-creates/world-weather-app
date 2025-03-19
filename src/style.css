@@ -75,8 +75,8 @@ header {
 }
 
 .app-logo {
-  width: 150px;
-  margin-top: -30px;
+  width: 180px;
+  margin-top: -25px;
 }
 
 .search-container {
@@ -141,7 +141,7 @@ header {
 }
 
 .weather-icon img {
-  width: 85px;
+  width: 93px;
   height: auto;
   margin: 20px auto;
   margin-right: 10px;
@@ -193,7 +193,7 @@ h1 {
 }
 
 .day img {
-  width: 50px;
+  width: 80px;
   height: auto;
   margin: 15px auto;
 }
